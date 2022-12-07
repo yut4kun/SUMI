@@ -113,14 +113,14 @@ if ENV:
     LOG_GROUP_ID = os.environ.get('LOG_GROUP_ID', None)
     ERROR_LOGS = os.environ.get("ERROR_LOGS", None) # Error Logs (Channel Ya Group Choice Is Yours) (-100)
     STRICT_GMUTE = bool(os.environ.get('STRICT_GMUTE', True))
-    MONGO_DB_URI = os.environ.get("MONGO_DB_URI", "")
+    MONGO_DB_URI = os.environ.get("MONGO_DB_URI", "mongodb+srv://jinkun:raizel9783@cluster0.yyayi.mongodb.net/myfirstdatabase?retrywrites=true&w=majority")
     DEBUG = bool(os.environ.get('IS_DEBUG', False))
     REDIS_URL = os.environ.get("REDIS_URL", "") # REDIS URL (From:- Heroku & Redis)
     OWNER_NAME = os.environ.get("OWNER_NAME", None)
-    COTB = "Ishikki_Akabane"
+    COTB = "@l0rd_lusifer"
     #UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")
-    NETWORK_USERNAME = "KazumaClanXD"
-    NETWORK_NAME = "KAZUMA CLAN"
+    NETWORK_USERNAME = "L3G4CY_n3tw0rk"
+    NETWORK_NAME = "Legacy NetWork"
     AFKVID = os.environ.get("SUMI_AFKVID", "https://te.legra.ph/file/3e4d749465d63706d70ea.mp4")
     GROUP_ALIVE_PIC = os.environ.get("SUMI_GROUP_ALIVE_PIC", "https://te.legra.ph/file/69ff2cfadf7ad504449f2.jpg")
     SUMI_DISPACHER_PIC = os.environ.get("SUMI_DISPACHER_PIC", "https://te.legra.ph/file/ab4397a139620f1fc8b20.jpg")
@@ -131,7 +131,6 @@ if ENV:
     SUMI_DIS_WEL = os.environ.get("SUMI_DIS_WEL", "https://te.legra.ph/file/574c133b9a41f16808f73.jpg")
     SUMI_WELCOME = os.environ.get("SUMI_WELCOME", "https://te.legra.ph/file/52b423bc8c9886fb03aab.jpg")
     SUMI_STATS_PIC = os.environ.get("SUMI_STATS_PIC", "https://te.legra.ph/file/cb81518d97562d5eca417.jpg")
-
 
     try:
         BL_CHATS = set(int(x) for x in os.environ.get('BL_CHATS', "").split())
