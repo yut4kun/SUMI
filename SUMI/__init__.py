@@ -115,7 +115,7 @@ if ENV:
     STRICT_GMUTE = bool(os.environ.get('STRICT_GMUTE', True))
     MONGO_DB_URI = os.environ.get("MONGO_DB_URI", "mongodb+srv://jinkun:raizel9783@cluster0.yyayi.mongodb.net/myfirstdatabase?retrywrites=true&w=majority")
     DEBUG = bool(os.environ.get('IS_DEBUG', False))
-    REDIS_URL = os.environ.get("REDIS_URL", "redis:default:SB9izW2azCnYLyj66ysVyn24f1C3X2DB@redis-17361.c266.us-east-1-3.ec2.cloud.redislabs.com:17361") # REDIS URL (From:- Heroku & Redis)
+    REDIS_URL = os.environ.get("REDIS_URL", "redis://default:SB9izW2azCnYLyj66ysVyn24f1C3X2DB@redis-17361.c266.us-east-1-3.ec2.cloud.redislabs.com:17361") # REDIS URL (From:- Heroku & Redis)
     OWNER_NAME = os.environ.get("OWNER_NAME", None)
     COTB = "@l0rd_lusifer"
     #UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")
