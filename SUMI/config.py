@@ -14,23 +14,23 @@ class Config(object):
     # REQUIRED
     #Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = "awoo"  # integer value, dont use ""
-    API_HASH = "awoo"
-    TOKEN = "awoo"  #This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 5030730429 # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "ishikki_akabane"
-    SUPPORT_CHAT = 'suppporttxd'  #Your own group for support, do not add the @
-    JOIN_LOGGER = -123456789  #Prints any new group the bot is added to, prints just the name and ID.
-    EVENT_LOGS = -123446789  #Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
+    API_ID = 9296751  # integer value, dont use ""
+    API_HASH = "a18338efb356310494a97c2c25c88202"
+    TOKEN = "5376273990:AAHM1_KdxZ8NHNAXdBl_aLjWBKyyrKZfD6A"  #This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 1314668058 # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "l0rd_lusifer"
+    SUPPORT_CHAT = 'L3GACYNetwork'  #Your own group for support, do not add the @
+    JOIN_LOGGER = -1001628925434 #Prints any new group the bot is added to, prints just the name and ID.
+    EVENT_LOGS = -1001628925434 #Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     #RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'something://somewhat:user@hosturl:port/databasename'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = 'postgres://udeihsmn:y3LLeqcrPC7c05jI98BeUr4vPKcza4YO@jelani.db.elephantsql.com/udeihsmn'  # needed for any database modules
     LOAD = []
     NO_LOAD = ['rss', 'cleaner', 'connection', 'math']
     WEBHOOK = False
     INFOPIC = True
     URL = None
-    SPAMWATCH_API = ""  # go to support.spamwat.ch to get key
+    SPAMWATCH_API = "Vc~Jfv23rh7UhAggXCldhXGsD1uWiHa~MR9JsOHQiE6Tw8qT4yjRvgB6cFNi6XAT"  # go to support.spamwat.ch to get key
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
 
     #OPTIONAL
@@ -49,7 +49,7 @@ class Config(object):
     DEL_CMDS = True  #Delete commands that users dont have access to, like delete /ban if a non admin uses it.
     STRICT_GBAN = True
     WORKERS = 8  # Number of subthreads to use. Set as number of threads your processor uses
-    BAN_STICKER = ''  # banhammer marie sticker id, the bot will send this sticker before banning or kicking a user in chat.
+    BAN_STICKER = 'CAACAgQAAx0CU_rCTAABAczQXyBOv1TsVK4EfwnkCUT1H0GCkPQAAtwAAwEgTQaYsMtAltpEwhoE'  # banhammer marie sticker id, the bot will send this sticker before banning or kicking a user in chat.
     ALLOW_EXCL = True  # Allow ! commands as well as / (Leave this to true so that blacklist can work)
     CASH_API_KEY = 'awoo'  # Get your API key from https://www.alphavantage.co/support/#api-key
     TIME_API_KEY = 'awoo'  # Get your API key from https://timezonedb.com/api
@@ -67,10 +67,10 @@ class Config(object):
     GROUPSTART_VID = "" #Paste link of your video or gif which will be shown when you send /start in groups
     GROUP_ALIVE_PIC = "" #Paste link of your image which will be shown when you send /alive.
     AFKVID = "" #Paste link of your video or gif which will be shown when someone goes afk
-    NETWORK_NAME = "" #Your Network or Community username(without @). IF YOU DONT HAVE ONE, SKIP THIS FIELD
-    NETWORK_USERNAME = "" #Your Network or Community name. IF YOU DONT HAVE ONE, SKIP THIS FIELD.
-    BOT_USERNAME = "" #Your bot username without @.
-    BOT_NAME = "" #Your bot Name.
+    NETWORK_NAME = "Legacy" #Your Network or Community username(without @). IF YOU DONT HAVE ONE, SKIP THIS FIELD
+    NETWORK_USERNAME = "@L3G4CY_n3tw0rk" #Your Network or Community name. IF YOU DONT HAVE ONE, SKIP THIS FIELD.
+    BOT_USERNAME = "Albedo_AliasRobot" #Your bot username without @.
+    BOT_NAME = "Albedo" #Your bot Name.
     REDIS_URL = "" #Paste your redis url in format redis://<username of admin role>:<password of admin role>@<endoint url>/<database name>. YOU CAN SKIP THIS IF YOU DONT HAVE ONE
     ARQ_API_KEY = "" #For Some Modules. Get it from @ArqRobot
 
