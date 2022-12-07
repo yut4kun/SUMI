@@ -79,6 +79,7 @@ class Config(object):
     ERROR_LOGS = -1001628925434
     OPENWEATHERMAP_ID = ""
     STRICT_GMUTE = ""
+    UPDATE_CHANNEL ""
     
 #Damn, it was tough for me to rewrite this whole, please don't remove the credits from the code, i did too much hardwork for this
 #if you face any problem in the bot or its code, please let me know, i will try my best to fix it.
