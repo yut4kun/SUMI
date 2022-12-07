@@ -118,7 +118,7 @@ if ENV:
     REDIS_URL = os.environ.get("REDIS_URL", "") # REDIS URL (From:- Heroku & Redis)
     OWNER_NAME = os.environ.get("OWNER_NAME", None)
     COTB = "Ishikki_Akabane"
-    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")
+    #UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")
     NETWORK_USERNAME = "KazumaClanXD"
     NETWORK_NAME = "KAZUMA CLAN"
     AFKVID = os.environ.get("SUMI_AFKVID", "https://te.legra.ph/file/3e4d749465d63706d70ea.mp4")
@@ -208,7 +208,7 @@ else:
     TEMP_DOWNLOAD_DIRECTORY = Config.TEMP_DOWNLOAD_DIRECTORY
     ERROR_LOGS = Config.ERROR_LOGS
     STRICT_GMUTE = Config.STRICT_GMUTE
-    UPDATE_CHANNEL = Config.UPDATE_CHANNEL
+    #UPDATE_CHANNEL = Config.UPDATE_CHANNEL
     REDIS_URL = Config.REDIS_URL
     NETWORK_USERNAME = Config.NETWORK_USERNAME
     NETWORK_NAME = Config.NETWORK_NAME
