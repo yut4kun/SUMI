@@ -72,7 +72,7 @@ class Config(object):
     BOT_USERNAME = "Albedo_AliasRobot" #Your bot username without @.
     BOT_NAME = "Albedo" #Your bot Name.
     REDIS_URL = "" #Paste your redis url in format redis://<username of admin role>:<password of admin role>@<endoint url>/<database name>. YOU CAN SKIP THIS IF YOU DONT HAVE ONE
-    ARQ_API_KEY = "" #For Some Modules. Get it from @ArqRobot
+    ARQ_API_KEY = "HZULWN-XDDTFD-OISRZZ-MPHDOR-ARQ" #For Some Modules. Get it from @ArqRobot
 
 #Damn, it was tough for me to rewrite this whole, please don't remove the credits from the code, i did too much hardwork for this
 #if you face any problem in the bot or its code, please let me know, i will try my best to fix it.
