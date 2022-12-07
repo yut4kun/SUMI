@@ -72,7 +72,7 @@ class Config(object):
     NETWORK_USERNAME = "@L3G4CY_n3tw0rk" #Your Network or Community name. IF YOU DONT HAVE ONE, SKIP THIS FIELD.
     BOT_USERNAME = "Albedo_AliasRobot" #Your bot username without @.
     BOT_NAME = "Albedo" #Your bot Name.
-    REDIS_URL = "redis-12774.c11.us-east-1-2.ec2.cloud.redislabs.com:12774" #Paste your redis url in format redis://<username of admin role>:<password of admin role>@<endoint url>/<database name>. YOU CAN SKIP THIS IF YOU DONT HAVE ONE
+    REDIS_URL = "redis-cli -u redis://default:SB9izW2azCnYLyj66ysVyn24f1C3X2DB@redis-17361.c266.us-east-1-3.ec2.cloud.redislabs.com:17361" #Paste your redis url in format redis://<username of admin role>:<password of admin role>@<endoint url>/<database name>. YOU CAN SKIP THIS IF YOU DONT HAVE ONE
     ARQ_API_URL = ""
     ARQ_API_KEY = "HZULWN-XDDTFD-OISRZZ-MPHDOR-ARQ" #For Some Modules. Get it from @ArqRobot
     TEMP_DOWNLOAD_DIRECTORY = ""
