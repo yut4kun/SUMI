@@ -22,7 +22,8 @@ class Config(object):
     SUPPORT_CHAT = 'L3GACYNetwork'  #Your own group for support, do not add the @
     JOIN_LOGGER = -1001628925434 #Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = -1001628925434 #Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
-
+    LOG_GROUP_ID = -1001628925434
+    
     #RECOMMENDED
     SQLALCHEMY_DATABASE_URI = 'postgres://udeihsmn:y3LLeqcrPC7c05jI98BeUr4vPKcza4YO@jelani.db.elephantsql.com/udeihsmn'  # needed for any database modules
     LOAD = []
