@@ -76,7 +76,7 @@ class Config(object):
     ARQ_API_URL = ""
     ARQ_API_KEY = "HZULWN-XDDTFD-OISRZZ-MPHDOR-ARQ" #For Some Modules. Get it from @ArqRobot
     TEMP_DOWNLOAD_DIRECTORY = ""
-    
+    ERROR_LOGS = -1001628925434
     OPENWEATHERMAP_ID = ""
     
 #Damn, it was tough for me to rewrite this whole, please don't remove the credits from the code, i did too much hardwork for this
