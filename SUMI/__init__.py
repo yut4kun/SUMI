@@ -227,26 +227,26 @@ else:
         raise Exception(
             "Your blacklisted chats list does not contain valid integers.")
 """
-API_ID = 
-API_HASH = ""
-TOKEN = ""
-OWNER_ID = 
-OWNER_USERNAME = ""
-JOIN_LOGGER =
-EVENT_LOGS = 
-LOG_GROUP_ID = 
-ERROR_LOGS =
-DB_URI = "" #elephant sql url
-MONGO_DB_URI = ""
-REDIS_URL =  ""
+API_ID = 9296751
+API_HASH = "a18338efb356310494a97c2c25c88202"
+TOKEN = "5376273990:AAHM1_KdxZ8NHNAXdBl_aLjWBKyyrKZfD6A"
+OWNER_ID = 1314668058
+OWNER_USERNAME = "l0rd_lusifer"
+JOIN_LOGGER = -1001628925434
+EVENT_LOGS = -1001628925434
+LOG_GROUP_ID = -1001628925434
+ERROR_LOGS = -1001628925434
+DB_URI = "postgres://udeihsmn:y3LLeqcrPC7c05jI98BeUr4vPKcza4YO@jelani.db.elephantsql.com/udeihsmn" #elephant sql url
+MONGO_DB_URI = "mongodb+srv://jinkun:raizel9783@cluster0.yyayi.mongodb.net/myfirstdatabase?retrywrites=true&w=majority"
+REDIS_URL =  "redis://default:SB9izW2azCnYLyj66ysVyn24f1C3X2DB@redis-17361.c266.us-east-1-3.ec2.cloud.redislabs.com:17361"
 INFOPIC = True
 WEBHOOK = False
 ARQ_API_URL = "https://thearq.tech"
-ARQ_API_KEY = 
+ARQ_API_KEY = HZULWN-XDDTFD-OISRZZ-MPHDOR-ARQ
 URL = #app url ignore
 PORT = 5000
 CERT_PATH = ""
-DONATION_LINK = ""
+DONATION_LINK = "https://t.me/l0rd_lusifer"
 LOAD = ""
 NO_LOAD = ""
 DEL_CMDS = False
@@ -259,8 +259,8 @@ TIME_API_KEY = ""
 AI_API_KEY = 
 WALL_API = ""
 SUPPORT_CHAT = ""
-SPAMWATCH_SUPPORT_CHAT = ""
-SPAMWATCH_API = ""
+SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
+SPAMWATCH_API = "lnUJPQwFJOvTQ6q1uU_M8D8l3ZvaFJiiUdN7Gl_jcU03uqwIDwk_PKGD3IyzD~h8"
 BANCODES = "You want me to ban the person who created my codes! ARE YOU CRAZY!!!!"
 REPOSITORY = "https://github.com/Ishikki-Akabane/SUMI"
 IBM_WATSON_CRED_URL = 
@@ -273,21 +273,21 @@ OPENWEATHERMAP_ID =  # From:- https://openweathermap.org/api
 STRICT_GMUTE = True
 DEBUG = False
 
-OWNER_NAME = "" #display name
-COTB = ""
-UPDATE_CHANNEL = ""
-NETWORK_USERNAME = ""
-NETWORK_NAME = ""
+OWNER_NAME = "♦♦𝕷𝖔𝖗𝖉 𝕷𝖚𝖘𝖎𝖋𝖊𝖗♦♦" #display name
+COTB = "l0rd_lusifer"
+UPDATE_CHANNEL = "@L3G4CY_n3tw0rk"
+NETWORK_USERNAME = "@L3G4CY_n3tw0rk"
+NETWORK_NAME = "LEGACY NETWORK"
 AFKVID = ""
-GROUP_ALIVE_PIC = ""
-SUMI_DISPACHER_PIC = ""
-SUMI_HELP_PIC = ""
-PM_IMAGE = ""
-GROUPSTART_VID = ""
-SUMI_OWNER_WEL_IMG = ""
-SUMI_DIS_WEL = ""
-SUMI_WELCOME = ""
-SUMI_STATS_PIC = ""
+GROUP_ALIVE_PIC = "https://telegra.ph/file/e158d5a873f49c59da965.jpg"
+SUMI_DISPACHER_PIC = "https://telegra.ph/file/e158d5a873f49c59da965.jpg"
+SUMI_HELP_PIC = "https://telegra.ph/file/e158d5a873f49c59da965.jpg"
+PM_IMAGE = "https://telegra.ph/file/e158d5a873f49c59da965.jpg"
+GROUPSTART_VID = "https://telegra.ph/file/e158d5a873f49c59da965.jpg"
+SUMI_OWNER_WEL_IMG = "https://telegra.ph/file/e158d5a873f49c59da965.jpg"
+SUMI_DIS_WEL = "https://telegra.ph/file/e158d5a873f49c59da965.jpg"
+SUMI_WELCOME = "https://telegra.ph/file/e158d5a873f49c59da965.jpg"
+SUMI_STATS_PIC = "https://telegra.ph/file/e158d5a873f49c59da965.jpg"
 
 from SUMI.config import Development as Config
 DRAGONS = set(int(x) for x in Config.DRAGONS or [])
