@@ -269,7 +269,7 @@ TEMP_DOWNLOAD_DIRECTORY = "./"
 #HEROKU_API_KEY = ""
 TELEGRAPH_SHORT_NAME = "l0rd_lusifer"
 #HEROKU_APP_NAME = ""
-OPENWEATHERMAP_ID =  # From:- https://openweathermap.org/api
+#OPENWEATHERMAP_ID =  # From:- https://openweathermap.org/api
 STRICT_GMUTE = True
 DEBUG = False
 
